@@ -436,7 +436,7 @@ public:
   bool isPVariant(void) ;
 
   /**
-   * Enable or disable auto-acknowlede packets
+   * Enable or disable auto-acknowledge packets
    *
    * This is enabled by default, so it's only needed if you want to turn
    * it off for some reason.
@@ -446,7 +446,7 @@ public:
   void setAutoAck(bool enable);
 
   /**
-   * Enable or disable auto-acknowlede packets on a per pipeline basis.
+   * Enable or disable auto-acknowledge packets on a per pipeline basis.
    *
    * AA is enabled by default, so it's only needed if you want to turn
    * it off/on for some reason on a per pipeline basis.
